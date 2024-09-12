@@ -30,7 +30,7 @@ def get_age_class_median(age):
         return 95  # For age 90 and above
 
 #Header
-st.markdown("**Patient Readmission Risk Predictor: Identifying Diabetic Patients at Risk of 30-Day Readmission**")
+st.title("**Patient Readmission Risk Predictor: Identifying Diabetic Patients at Risk of 30-Day Readmission**")
 
 # Streamlit Inputs
 age_input = st.number_input("Enter Age:", min_value=0, max_value=120, value=30)
